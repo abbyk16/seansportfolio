@@ -11,7 +11,7 @@ body {
   background-image: url("/images/richmond_skyline.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 600px;
+  max-width: 650px;
   margin: 20px auto;
 }
 
@@ -59,6 +59,14 @@ hr {
   border-right: none;
 }
 
+.no-padding-bottom {
+  margin-bottom: 0;
+}
+
+.no-padding-top {
+  margin-top: 0;
+}
+
 .searchbar {
   text-align: center;
   width: 90%;
@@ -101,6 +109,40 @@ button {
   border-bottom: none;
   border-left: none;
   border-right: none;
+}
+
+.partial-width {
+  width: 75%;
+}
+
+main {
+  background-color: hsla(300, 9%, 89%, 60%);
+  height: auto;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  height: auto;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2em 3em;
+}
+
+.project-desc {
+  font-weight: 600;
+}
+
+.text-container {
+  padding-right: 4em;
+  max-width: 50%;
+}
+
+.image-container {
+}
+
+#movie-club-poster-pic {
+  width: 100%;
 }
 
 footer {
