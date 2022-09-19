@@ -200,8 +200,7 @@ main {
   max-width: 50%;
 }
 
-.image-container {
-}
+
 
 #movie-club-poster-pic {
   width: 100%;
@@ -230,7 +229,6 @@ main {
   transform: scale(1.5);
 }
 
-.gallery img:
 
 footer {
   margin: 0 auto 40em auto;
